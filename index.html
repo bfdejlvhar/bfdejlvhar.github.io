@@ -14,6 +14,9 @@ function openTab(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+function onload(){
+document.getElementById("defaultOpen").click();
+}
   </script>
   <style>
   #text {
@@ -162,7 +165,7 @@ function openTab(evt, cityName) {
 }
 
   </style>
-  <body>
+  <body onload="onload();">
     <title>WHS's Website</title>
 	<div class="tab center" id="tabholder">
   	<button class="tablinks" id="defaultOpen" onclick="openTab(event, 'First')">Main</button>
@@ -193,8 +196,10 @@ function openTab(evt, cityName) {
 </div>
 
 <div id="Second" class="tabcontent">
-	<div id="main">
-  <button href="https://notepad-plus-plus.org/"><img href="/npp.png"></img></button>
+	<div id="main" class= "center">
+  <a href="https://notepad-plus-plus.org"><img src="npp.png"></img></a>
+  <p id="text">NotePad ++</p>
+  <h5 id ="text">Really good text editor.</h5>
   </div
 </div>
     </body>
