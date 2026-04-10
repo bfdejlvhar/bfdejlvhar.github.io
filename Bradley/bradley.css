@@ -1,0 +1,39 @@
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c1/New-plymouth-city-skyline-npdc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    max-width: 50%;
+}
+
+ul {
+    display: inline-block;  /* Shrinks the width to fit the content */
+    text-align: left;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+div.counter-container {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+div.centre{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Bradley's Really Cool Page </title>
+        <link rel="stylesheet" type="text/css" href="https://bfdejlvhar.github.io/bradley/bradley.css">
+        <link rel="icon" href="https://bfdejlvhar.github.io/bradley/bradley_icon.ico">
+    </head>
+    <body>
+        <hr>
+        <h1>
+            <img src="https://media.tenor.com/Fl86HERrwRoAAAAj/oiiai-cat-spinning-cat.gif">
+            Welcome to my domain!
+            <img src="https://media.tenor.com/Fl86HERrwRoAAAAj/oiiai-cat-spinning-cat.gif">
+        </h1>
+        <hr>
+        <h2>
+            A little bit about me...
+        </h2>
+        <div class="centre">
+            <ul style="align-items: center; justify-content: center;">
+                <li>
+                    My favourite colour is <bold style="color:fuchsia">Magenta</bold>
+                </li>
+                <li>
+                    I am from a little town called <bold>Eltham</bold> which is in <bold>Taranaki</bold>
+                </li>
+                <li>
+                    My favourite kind of pie is a Steak, Bacon and Cheese pie.
+                </li>
+                <li>
+                    I have yet to venture to the South Island.
+                </li>
+                <li>
+                    My favourite kind of cheese is Noble - now known as Tasty Lite.
+                </li>
+                <li>
+                    The aforementioned name change irrationally angry.
+                </li>
+                <li>
+                    &lt;p&gt; tags are overrated.
+                </li>
+            </ul>
+        </div>
+        <hr>
+
+        <h2>Bradley Clicker</h2>
+        <div class="counter-container">
+            <button id="imageButton">
+                <img src="https://www.hollandhart.com/images/bio/cave_bradley_gallery_directory.jpg" alt="Click Me" id="clickableImage">
+            </button>
+            <p>Clicks: <span id="clickCount">0</span></p>
+            </div>
+
+        <style>
+        #imageButton {
+            background: none;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            cursor: pointer;
+            padding: 10px;
+            transition: transform 0.1s;
+        }
+        #imageButton:active {
+            transform: scale(0.95); /* Makes it feel like a real button */
+        }
+        #clickCount {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        </style>
+
+        <script>
+        let count = 0;
+        const button = document.getElementById('imageButton');
+        const display = document.getElementById('clickCount');
+
+        button.addEventListener('click', () => {
+            count++;
+            display.textContent = count;
+        });
+        </script>
+            <div class="centre">
+                <em>Please note that Bradley is forgetful and won't remember your clicks between visits.<br>
+                    So, if you get a high amount of clicks, that just shows your dedication!</em>
+            </div>
+        <hr>
+            <h2>
+                My Favourite Artist
+            </h2>
+            <div class="centre">
+                Please consider checking out the works of Avery Palmer<br>
+                <a href="https://www.averypalmerart.com/"><img class="avery" src="https://i.redd.it/does-anyone-know-who-made-these-or-if-there-are-any-more-v0-bc4nzbidwhoc1.jpg?width=1179&format=pjpg&auto=webp&s=8b807ce6b5aedbc806d48110e8a6de9b7f61f1ea" width="25%"></a>
+                <br><em>Click the image to see their works</em>
+            </div>
+        <hr>
+    </body>
+</html>
