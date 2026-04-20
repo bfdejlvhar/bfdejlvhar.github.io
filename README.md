@@ -8,7 +8,6 @@ Make any changes you want. Make the website your own. Just follow these simple r
 4. Don't edit the README file.
 
 ## Making a contribution
-### Method 1
 1. Create a [Github account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github).
 2. [Set up Git](https://docs.github.com/en/get-started/git-basics/set-up-git).
 3. Fork the repository on Github.
